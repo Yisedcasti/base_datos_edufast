@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Actualización de Actividad</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #15746e;
+      padding: 20px;
+      color: #333;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+  
+      .formulario-actualizacion {
+        width: 100%;
+        max-width: 400px;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        text-align: center;
+      }
+  
+      .formulario-actualizacion h2 {
+        margin-bottom: 20px;
+        font-size: 24px;
+        color: #15746e;
+      }
+  
+      .formulario-actualizacion label {
+        font-size: 14px;
+        color: #555;
+        margin-bottom: 5px;
+        display: block;
+        text-align: center;
+      }
+  
+      .formulario-actualizacion input[type="text"],
+      .formulario-actualizacion textarea {
+        width: 78%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 14px;
+        color: #333;
+      }
+  
+      .formulario-actualizacion button {
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background 200ms;
+        width: 100%;
+        margin-bottom: 10px;
+        transition: background-color 0.3s; 
+      }
+  
+      .formulario-actualizacion .btn-actualizar {
+        background-color: #15746e;
+        color: white;
+        
+      }
+  
+      .formulario-actualizacion .btn-actualizar:hover {
+        background-color: #125a53;
+        transition: background-color 0.3s; 
+      }
+  
+      .formulario-actualizacion .btn-cancelar {
+        background-color: #ccc;
+        color: black;
+      }
+  
+      .formulario-actualizacion .btn-cancelar:hover {
+        background-color: red;
+        color: white;
+        transition: background-color 0.3s; 
+      }
+  </style>
+</head>
+<body>
+
+<div class="formulario-actualizacion">
+  <h1>Actualizar Actividad</h1>
+  <form action="/ruta_para_actualizar" method="POST">
+    <label for="profesor">Profesor:</label>
+    <input type="text" id="profesor" name="profesor" value="Prof. Juan Pérez" required>
+
+    <label for="nombre_actividad">Nombre de la Actividad:</label>
+    <input type="text" id="nombre_actividad" name="nombre_actividad" value="Examen de Matemáticas" required>
+
+    <label for="descripcion">Descripción:</label>
+    <textarea id="descripcion" name="descripcion" rows="4" required>Examen final de álgebra y geometría.</textarea>
+
+    <button type="submit" class="btn-actualizar">Actualizar</button>
+    <button type="button" class="btn-cancelar" onclick="window.history.back()">Cancelar</button>
+  </form>
+</div>
+
+</body>
+</html>

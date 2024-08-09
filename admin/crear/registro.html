@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina principal</title>
+    <link rel="stylesheet" href="../../css/registro.css"> 
+</head>
+<body>
+    <header class="containernav">
+        <figure class="logo">
+            <img src="../../imagenes/logo.png" alt="logo">
+            <h2>EDUFAST</h2>
+        </figure>
+        <nav>
+            <ul class="menu-horizontal">
+                <li class="item-options"><a href="#">Registro</a>
+                    <ul class="menu-vertical">
+                        <li class="item-options"><a href="../registro_coordinador.html" >coordinador</a></li>
+                        <li class="item-options"><a href="../registro_secretaria.html" >Secretaria</a></li>
+                        <li class="item-options"><a href="../registro_profesores.html" >Maestro</a></li>
+                        <li class="item-options"><a href="../registro_estudiante.html" >Alumno</a></li>
+                        <li class="item-options"><a href="../registro_acudientes.html">Acudiente</a></li>
+                    </ul>
+                </li>
+    
+                <li class="item-options"><a href="../crear/publicaciones_crear.html"  title="Volver a crear">Volver</a></li>
+    
+                </ul>
+        </nav>
+        </header>
+        <section class="main-container">
+            <div class="containerRegistro">
+                <div class="title">
+                    <h2>REGISTRAR</h2>
+                        <form action="">
+                            <div class="formGroup">
+                                <span>NOMBRES</span>
+                                <input type="text" placeholder="Ingrese nombres" required>
+                            </div>
+                            <div class="formGroup">
+                                <span>APELLIDOS</span>
+                                <input type="text" placeholder="Ingrese apellidos" required>
+                            </div>
+                            <div class="formGroup">
+                                <span>TIPO DE DOCUMENTO</span>
+                                <select name="tipoDoc" id="">
+                                    <option value="1">Tarjeta Identidad</option>
+                                    <option value="2">Cedula Ciudadana </option>
+                                    <option value="3">Ceddula Extranjera</option>
+                                    <option value="4">Registro Civil</option>
+                                </select>
+                            </div>
+                            <div class="formGroup">
+                                <span>Nº DOCUMENTO</span>
+                                <input type="text" placeholder="Ingrese numero de documento" required>
+                            </div>
+                            <div class="formGroup">
+                                <span>TELEFONO</span>
+                                <input type="number" placeholder="Ingrese numero de telefon0">
+                            </div>
+                            <div class="formGroup">
+                                <span>CELULAR</span>
+                                <input type="number" placeholder="Ingrese numero de celular" required>
+                            </div>
+                            <div class="formGroup">
+                                <span>CORREO</span>
+                                <input type="email" placeholder="Ingrese el correo electronico " required>
+                            </div>
+                            <div class="formGroup">
+                                <span>DIRECCION</span>
+                                <input type="text" placeholder="Ingrese la direccion " required>
+                            </div>
+                            <div class="formGroup">
+                                <span>USUARIO</span>
+                                <input type="text" placeholder="Ingrese usuario " required>
+                            </div>
+                            <div class="formGroup">
+                                <span>CONTRASEÑA</span>
+                                <input type="password" placeholder="Ingrese contraseña " required>
+                            </div>
+                            <div class="button">
+                                <input type="button" value="Registrar">
+                            </div>
+                        </form>
+                </div>
+            </div>
+      </section>
+      <footer class="footer">
+        <div class="containerfooter">
+            <div class="footer-row">
+                <div class="footer-links">
+                    <ul>
+                        <li>2024 EDUFAST Todos los derechos reservados</li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li>Política de privacidad | Términos y condiciones</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
