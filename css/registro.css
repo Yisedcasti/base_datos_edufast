@@ -108,6 +108,8 @@ body {
   border-radius: 8px;
   border: 1px solid black;
   margin: 40px 0px;
+  display: flex;
+
 }
 .containerRegistro .title h2{
   font-size: 35px;
