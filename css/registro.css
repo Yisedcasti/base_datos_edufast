@@ -104,7 +104,8 @@ body {
   max-width: 700px;
   width: 100%;
   padding: 25px 30px;
-  background-color:#EAF4F4;
+  background: linear-gradient(to bottom right,#8FB8DE, #7f7b82);
+  color:#000;
   border-radius: 8px;
   border: 1px solid black;
   margin: 40px 0px;
@@ -167,7 +168,8 @@ form .button input{
   outline:none;
   cursor: pointer;
   margin:0px 190px ;
-  background-color: #7f7b82;
+  background-color: #000;
+  color: white;
   font-size: 30px;
   font-family: serif;
   font-weight: 500;
