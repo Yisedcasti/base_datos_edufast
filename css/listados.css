@@ -36,7 +36,7 @@ body {
  
  .logo h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     color: #f1f1f1;
     margin: -60px 0 0 -43px;
@@ -56,43 +56,80 @@ body {
     align-items: center;
     padding-top: 5px;
  }
- .titulo{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 45px;
     text-align: center;
-    margin-top: 3%;
     color: #000;
-}
-.registros{
-    border: 2px solid #000;
-    border-radius: 30px;
-    margin: 10px auto;
-    padding: 0;
-    height: auto;
-    width:500px;
-    color: #000;
-    background-color: #EAF4F4;
+
 }
 
-.registros td{
-    border: 0px solid #000;
-    margin: 5px;
-    padding: 10px;
-    font-size: 16px;
-    font-family: serif;
+ table {
+    width: 50%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    margin-left: 28%;
+    margin-top: 4%;
+    border:3px solid black;
+    background:#EAF4F4;
+    overflow: hidden;
+    margin: 10px auto 90px auto;
 }
-.registros a{
-    color: #000;
-    margin: 10px 10px 10px 10px;
-    padding: 10px;
-    border-radius: 15%;
-    font-size: 16px;
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    text-align: center;
     font-family: serif;
-    text-decoration: none;
+    font-size:17px;
+}
+th {
+    background-color: black;
+    font-weight: bold;
+    color: white;
+}
+
+tr:hover {
+    background-color: #e0e0e0;
+}
+
+
+tbody a{
+    color: black;
+}
+
+tbody button{
+    background-color: transparent;
+    color: black;
+    border-style: none;
     
 
 }
+.desplegable {
+    align-self: flex-start; 
+    padding: 10px;
+    font-family: serif;
+    font-size:17px;
+    border-radius: 5px;
+    color: black;
+    outline: none;
+    margin-left: 40%;
+    transition: border-color 0.3s;
+}
 
+.desplegable :focus {
+    display: absolute;
+    background-color:  #ffffff;
+}
+
+
+
+.desplegable option {
+    width: 0px; 
+}
+
+
+ 
 .footer{
     background-color: black;
     padding: 10px 0;
@@ -101,9 +138,6 @@ body {
  .footer-row{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 0 auto;
-    max-width: 1000px;
  }
  
  .footer-links{
@@ -162,4 +196,3 @@ body {
     color: #ffffff;
     transition: all .5s ease;
  }
-

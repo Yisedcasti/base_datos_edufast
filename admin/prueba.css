@@ -59,11 +59,10 @@ body {
 
 
 .footer {
-   background-color: #000;
+   background-color: black;
    padding: 20px 0;
    color: white;
    text-align: center;
-   margin-top: auto;
 }
 
 .footer-row { 
@@ -90,5 +89,37 @@ body {
    margin-bottom: 10px;
    transition: all 0.3s ease;
    color: white;
-  
 }
+
+.footer-links ul li:hover{
+   color: white;
+   padding-left: 6px;
+}
+
+.footer-links ul li a{
+   font-size: 18;
+   text-decoration: none;
+   color: white;
+   display: block;
+   margin-bottom: 15px;
+   transition: all .3s ease;
+}
+
+.footer-links ul li a:hover{
+   color: white;
+   padding-left: 6px;
+}
+
+.social-link a{
+   display: inline-block;
+   min-height: 40px;
+   height: 40px;
+   width: 50px;
+   background-color: rgba(255, 255, 255, 0.2);
+   margin:0 10px 10px 0px ;
+   text-align: center;
+   line-height: 40px;
+   border-radius: 50px;
+   color: #ffffff;
+   transition: all .5s ease;
+} 

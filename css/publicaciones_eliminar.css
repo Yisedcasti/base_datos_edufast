@@ -117,14 +117,12 @@ th {
     font-size: 14px;
     font-family: serif;
 }
-.footer {
+.footer{
    background-color: black;
-   padding: 20px 0;
-   color: white;
-   text-align: center;
+   padding: 10px 0;
 }
 
-.footer-row { 
+.footer-row{
    display: flex;
    flex-wrap: wrap;
    justify-content: space-around;
@@ -132,20 +130,59 @@ th {
    max-width: 1000px;
 }
 
-.footer-links {
-   width: 40%;
-   padding: 0 15px;
-   margin-bottom: 20px;
+.footer-links{
+   width: 22%;
+   padding:0 15px ;
+
 }
 
-.footer-links ul {
-   list-style: none;
-   padding: 0;
+.footer-links h4 {
+font-size:20px;
+color: white;
+margin-bottom: 15px;
+font-weight: 500;
+border-bottom: 2px solid #00c3ff;
+padding-bottom:20px;
+display:inline-block;
 }
-
 .footer-links ul li {
-   font-size: 16px;
-   margin-bottom: 10px;
-   transition: all 0.3s ease;
+   font-size: 18;
+   text-decoration: none;
    color: white;
+   display: block;
+   margin-bottom: 15px;
+   transition: all .3s ease;
+}
+
+.footer-links ul li:hover{
+   color: white;
+   padding-left: 6px;
+}
+
+.footer-links ul li a{
+   font-size: 18;
+   text-decoration: none;
+   color: white;
+   display: block;
+   margin-bottom: 15px;
+   transition: all .3s ease;
+}
+
+.footer-links ul li a:hover{
+   color: white;
+   padding-left: 6px;
+}
+
+.social-link a{
+   display: inline-block;
+   min-height: 40px;
+   height: 40px;
+   width: 50px;
+   background-color: rgba(255, 255, 255, 0.2);
+   margin:0 10px 10px 0px ;
+   text-align: center;
+   line-height: 40px;
+   border-radius: 50px;
+   color: #ffffff;
+   transition: all .5s ease;
 }
